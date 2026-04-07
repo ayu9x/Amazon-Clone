@@ -15,7 +15,7 @@ const Cart = (props) => {
 
     
     const cart = useSelector((state) => state.cart);
-    const { cartItems, error } = cart;
+    const { cartItems } = cart;
 
     console.log(productID);
 
