@@ -45,7 +45,7 @@ const UserProfile = () => {
     const updateDetails = (e) =>{
         e.preventDefault();
 
-        if(password != confirmpassword){
+        if(password !== confirmpassword){
             alert('Password does not match.')
         }
         else{

@@ -38,7 +38,7 @@ const OrderDetails = (props) => {
             document.body.appendChild(script);
         };
 
-        if(!order || successPay || (order && order._id != orderID)){
+        if(!order || successPay || (order && order._id !== orderID)){
             dispatch({
                 type: ORDER_PAY_RESET
             })
@@ -55,7 +55,7 @@ const OrderDetails = (props) => {
             }
         }
         
-    }, [dispatch, orderID, sdkReady, order]);
+    }, [dispatch, orderID, sdkReady, order, successPay]);
 
 
     const successPaymentHandler = (paymentResult) =>{
