@@ -9,7 +9,7 @@ const PriceCheckBox = (props) => {
 
 
 
-    const [Checked, setChecked] = useState([]);
+    const [, setChecked] = useState([]);
 
     const handleToggle = (value) => {
 

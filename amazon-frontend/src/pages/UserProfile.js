@@ -22,7 +22,6 @@ const UserProfile = () => {
     const {
         success: successUpdate,
         error: errorUpdate,
-        loading: loadingUpdate
     } = userUpdateProfile;
 
     const dispatch = useDispatch();
